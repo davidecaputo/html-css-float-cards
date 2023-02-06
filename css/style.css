@@ -1,0 +1,54 @@
+/* 
+colori: 
+titolo: #e53170
+sfondo: #0f0e17
+email: #31adde
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    color: #e53170;
+}
+
+main > p{
+    text-align: center;
+}
+
+.card{
+    width: 360px;
+    height: 100px;
+    margin: 40px 20px 0px 0px;
+    display: inline-block;
+    background-color: #0f0e17;
+    color: white;
+}
+
+.foto{
+    width: 100px;
+}
+
+.left{
+    float: left;
+}
+
+.text-content{
+    padding: 10px;
+    float: left;
+}
+
+.email{
+    color: #31adde;
+}
